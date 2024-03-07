@@ -11,7 +11,7 @@ def toggle_pause():
 
 try:
     # Open the PDF file
-    with fitz.open('OS_Module-3.pdf') as pdf_document:
+    with fitz.open('OS_Module-3.pdf') as pdf_document:#replace "OS_Module-3.pdf" with the name of your PDF file
 
         # Get the number of pages
         pages = pdf_document.page_count
